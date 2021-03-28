@@ -1,0 +1,3 @@
+started by configuring nmtui on all the eithernet devices for the new vm's to the ip's and adding the accouts to my lan, then adding them to my dns on mgmt.
+then installed ansible and made a private key and ssh copied the public key to ansible 1 and 2 then made roles directory and added .yml files for roles and 
+used the inventory .txt files in ansible. Then we did this with windows commputers after wich was pretty much the same.
