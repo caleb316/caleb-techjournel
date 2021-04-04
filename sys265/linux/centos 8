@@ -1,1 +1,5 @@
-
+network restart centos8: nmcli networking off, nmcli networking on
+in cockpit click on overview and join domain
+edit sudoer files and add group 
+%domain\ admins@caleb.local ALL=(ALL) ALL
+then yum install cockpit-dashboard and add other servers to the dashboard
