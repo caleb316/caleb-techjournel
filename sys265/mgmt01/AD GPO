@@ -1,0 +1,4 @@
+create new ou: New-ADOrganizationalUnit -Name
+delete ou (identity can be found in the atribute editor of the identity you want): Remove-ADOrganizationalUnit -Identity "identity" -Recursive 
+move ou : Move-ADobject 'target of moving in atribute editor' -TargetPath 'target location to move found in atribute editor'
+search event log by: Get-EventLog -LogName System -Newest 20
